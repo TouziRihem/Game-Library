@@ -1,0 +1,215 @@
+
+/* GENERAL */
+
+body {
+  margin: 0;
+  background: #090711;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 50% 0%, #28103d 0%, transparent 40%),
+    #090711;
+  color: white;
+}
+
+/* NAVBAR */
+
+.game-navbar {
+  background: #100b1c;
+  border-bottom: 1px solid #49205e;
+}
+
+.game-brand {
+  color: #f18cff !important;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* TITLES */
+
+.main-title {
+  font-size: 36px;
+  font-weight: bold;
+  background: linear-gradient(90deg, #803cff, #e34df5, #ff9bf8);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.subtitle {
+  color: #b9a9c9;
+}
+
+/* ADD GAME BUTTON */
+
+.add-game-btn {
+  background: linear-gradient(90deg, #793cff, #d83df2);
+  border: none;
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-weight: bold;
+  box-shadow: 0 4px 20px rgba(176, 54, 255, 0.3);
+  transition: 0.3s;
+}
+
+.add-game-btn:hover {
+  background: linear-gradient(90deg, #914fff, #ed62ff);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 25px rgba(216, 61, 242, 0.5);
+}
+
+/* SECTION TITLE */
+
+.section-title {
+  color: #ed8aff;
+  font-weight: bold;
+  border-bottom: 2px solid #6827a5;
+  padding-bottom: 12px;
+}
+
+/* GAME CARDS */
+
+.game-card {
+  background: #171123;
+  color: white;
+  border: 1px solid #49205e;
+  border-radius: 14px;
+  overflow: hidden;
+  transition: 0.3s ease;
+}
+
+.game-card:hover {
+  transform: translateY(-7px);
+  border-color: #d54df5;
+  box-shadow: 0 8px 25px rgba(160, 55, 255, 0.2);
+}
+
+.game-image {
+  height: 190px;
+  object-fit: cover;
+}
+
+.game-card .card-title {
+  color: #f19aff;
+  font-weight: bold;
+}
+
+.game-info {
+  color: #c7bdd3;
+  line-height: 1.9;
+}
+
+/* CARD BUTTONS */
+
+.game-card .btn-warning {
+  background: linear-gradient(90deg, #743bff, #b53df0);
+  border: none;
+  color: white;
+}
+
+.game-card .btn-warning:hover {
+  background: #914fff;
+  color: white;
+}
+
+.game-card .btn-danger {
+  background: #e64be9;
+  border: none;
+}
+
+.game-card .btn-danger:hover {
+  background: #fa67ef;
+}
+
+/* MODALS */
+
+.game-modal .modal-content {
+  background: #171123;
+  color: white;
+  border: 1px solid #8b3bc5;
+  border-radius: 16px;
+  box-shadow: 0 10px 40px rgba(155, 50, 255, 0.25);
+}
+
+.game-modal .modal-header {
+  background: linear-gradient(90deg, #743bff, #d83df2);
+  border-bottom: none;
+  border-radius: 15px 15px 0 0;
+}
+
+.game-modal .modal-title {
+  color: white;
+  font-weight: bold;
+}
+
+.game-modal .btn-close {
+  filter: invert(1);
+}
+
+.game-modal .modal-body {
+  padding: 25px;
+}
+
+.game-modal .modal-footer {
+  border-top: 1px solid #49205e;
+}
+
+.game-modal .form-label {
+  color: #f19aff;
+  font-weight: 600;
+}
+
+.game-modal .form-control,
+.game-modal .form-select {
+  background-color: #251a35;
+  border: 1px solid #604078;
+  color: white;
+  border-radius: 8px;
+}
+
+.game-modal .form-control::placeholder {
+  color: #a89ab7;
+}
+
+.game-modal .form-control:focus,
+.game-modal .form-select:focus {
+  background-color: #251a35;
+  color: white;
+  border-color: #d54df5;
+  box-shadow: 0 0 0 0.2rem rgba(213, 77, 245, 0.2);
+}
+
+.game-modal .form-select option {
+  background: #251a35;
+  color: white;
+}
+
+/* SAVE BUTTON */
+
+.save-game-btn {
+  background: linear-gradient(90deg, #793cff, #d83df2);
+  border: none;
+  font-weight: bold;
+}
+
+.save-game-btn:hover {
+  background: linear-gradient(90deg, #914fff, #ed62ff);
+}
+
+/* FOOTER */
+
+.footer {
+  background: #100b1c;
+  color: #a99ab9;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  border-top: 1px solid #49205e;
+}
+
+.footer p {
+  margin: 0;
+}
